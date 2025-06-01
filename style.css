@@ -1,0 +1,102 @@
+ body {
+      background: linear-gradient(135deg, #9cecfb, #65c7f7, #0052d4);
+      min-height: 100vh;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #fff;
+      padding: 20px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+      text-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+    h1 {
+      font-size: 2.5rem;
+    }
+    h2 {
+      font-weight: 300;
+    }
+    .nav-btn {
+      margin: 0 5px 15px;
+    }
+    .card-section {
+      background: rgba(255,255,255,0.15);
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 25px rgba(0,0,0,0.3);
+      max-width: 700px;
+      margin: 0 auto 30px;
+      color: #f0f8ff;
+    }
+    .ornamen-img {
+      max-width: 120px;
+      display: block;
+      margin: 20px auto 0 auto;
+    }
+    .img-materi {
+      max-width: 200px;
+      display: block;
+      margin: 20px auto 0 auto;
+    }
+    #timer {
+      font-weight: 700;
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+      text-align: center;
+      text-shadow: 0 0 5px #ffea00;
+    }
+    #quiz-buttons {
+      margin-top: 20px;
+    }
+    #choice-container label {
+      display: block;
+      background: rgba(255,255,255,0.2);
+      margin: 6px 0;
+      padding: 8px 12px;
+      border-radius: 8px;
+      cursor: pointer;
+      user-select: none;
+      transition: background 0.3s ease;
+    }
+    #choice-container label:hover {
+      background: rgba(255,255,255,0.4);
+    }
+    #choice-container input[type="radio"] {
+      margin-right: 10px;
+    }
+    button:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+    #result-section {
+      background: rgba(0,0,0,0.5);
+      padding: 15px;
+      border-radius: 12px;
+      margin-top: 15px;
+      max-height: 300px;
+      overflow-y: auto;
+    }
+    .correct-answer {
+      color: #a4f9a4;
+    }
+    .wrong-answer {
+      color: #f99a9a;
+    }
+    pre {
+      background: rgba(0,0,0,0.2);
+      padding: 10px;
+      border-radius: 8px;
+      overflow-x: auto;
+    }
+    #printable-area {
+      background: white;
+      color: black;
+      padding: 20px;
+    }
+    .quiz-complete-message {
+      text-align: center;
+      background: rgba(255,255,255,0.2);
+      padding: 20px;
+      border-radius: 12px;
+      margin-top: 20px;
+    }
